@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "project-X",
+    "scheme": "project-X",
     "slug": "project-X",
     "version": "1.0.0",
     "orientation": "portrait",
