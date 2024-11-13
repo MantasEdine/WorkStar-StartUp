@@ -1,4 +1,4 @@
-import { Work } from './work';
+
 
 export type admitionStatus = 'Pending' | 'Completed' | 'accepted' | 'waiting_for_your_arrival';
 

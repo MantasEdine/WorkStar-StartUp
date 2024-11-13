@@ -1,6 +1,6 @@
 import { Tabs } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { StyleSheet } from "react-native";
+import { ImageBackground, StyleSheet } from "react-native";
 import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import React from "react";
@@ -22,7 +22,9 @@ const TabsLayout = ()=>{
     return(
  <SafeAreaView edges ={['top']}style ={styles.safeArea}>
    <Tabs
+   
     screenOptions={{
+    
       tabBarActiveTintColor : 'green',
       tabBarInactiveTintColor : '#000',
       tabBarLabelStyle : {fontSize : 16},
@@ -51,6 +53,7 @@ export default TabsLayout;
 const styles = StyleSheet.create({
   safeArea : {
     flex : 1,
+    backgroundColor : "#8890B4"
   }
 }) 
 

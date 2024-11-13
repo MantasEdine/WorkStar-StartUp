@@ -3,20 +3,25 @@ import { JOB_OFFERS } from "../../../assets/jobs";
 import { WorkList } from "../componenets/work-list";
 export default function Home() {
   return (
-    <View>
+    <View style={styles.container}>
+      
       <FlatList
         data={JOB_OFFERS}
         renderItem={({ item }) => <WorkList work={item} />}
+        
         keyExtractor={(item) => item.id.toString()}
         ListHeaderComponent={<Text style={styles.headerText}>Jobs</Text>}
         contentContainerStyle={styles.flatListContent}
-        style={{ paddingHorizontal: 10, paddingVertical: 5 }}
+        style={{ paddingHorizontal: 10, paddingVertical: 5}}
       />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
+  container  : {
+  backgroundColor :"rgb(131,79,160)" 
+  },
   flatListContent: {
     paddingBottom: 20,
   },

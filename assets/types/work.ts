@@ -4,10 +4,10 @@ import { Category } from './category';
 export type Work = {
   id: number; // work id
   brand: string; // work title
-  imagesUrl?: ImageSourcePropType; // optional images of work type
-  imagesUrl1?: ImageSourcePropType; // optional images of work type
-
+  iconImageUrl?: ImageSourcePropType; // optional images of work type
+  postImageUrl?: ImageSourcePropType; // optional images of work type
   position: string;
+  address : string,
   date: Date;
   time: number;
   hourlyPayment: number; // hourly work payment
