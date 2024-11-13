@@ -1,35 +1,33 @@
 import { Category } from './types/category';
-import { PRODUCTS } from './products';
+import { JOB_OFFERS } from './jobs';
 
 export const CATEGORIES: Category[] = [
   {
-    name: 'Laptops',
-    slug: 'laptops',
-    imageUrl:
-      'https://images.pexels.com/photos/129208/pexels-photo-129208.jpeg',
-    products: PRODUCTS.filter(product => product.category.slug === 'laptops'),
+    name:"waiter",
+    imageUrl1:
+    
+      'https://img.freepik.com/premium-photo/young-african-american-waiter-man-hold-tray_521733-6356.jpg',
+    description : "interact with diners and provide them with their meals in a timely manner.",
   },
   {
-    name: 'Phones',
-    slug: 'phones',
-    imageUrl:
-      'https://images.pexels.com/photos/40739/mobile-phone-smartphone-tablet-white-40739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    products: PRODUCTS.filter(product => product.category.slug === 'phones'),
+    name:"waiter",
+    imageUrl1:
+      'https://img.freepik.com/premium-photo/young-african-american-waiter-man-hold-tray_521733-6356.jpg',
+    description : "interact with diners and provide them with their meals in a timely manner.",
+
   },
   {
-    name: 'Gaming',
-    slug: 'gaming',
-    imageUrl:
-      'https://images.pexels.com/photos/275033/pexels-photo-275033.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    products: PRODUCTS.filter(product => product.category.slug === 'gaming'),
+    name:"waiter",
+    imageUrl1:
+      'https://img.freepik.com/premium-photo/young-african-american-waiter-man-hold-tray_521733-6356.jpg',
+    description : "interact with diners and provide them with their meals in a timely manner.",
+
   },
   {
-    name: 'Accessories',
-    slug: 'accessories',
-    imageUrl:
-      'https://images.pexels.com/photos/577769/pexels-photo-577769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    products: PRODUCTS.filter(
-      product => product.category.slug === 'accessories'
-    ),
+    name:"waiter",
+    imageUrl1:
+      'https://img.freepik.com/premium-photo/young-african-american-waiter-man-hold-tray_521733-6356.jpg',
+    description : "interact with diners and provide them with their meals in a timely manner.",
+
   },
 ];
